@@ -46,7 +46,7 @@ class Observer1 {
     this.observer = observer;
     }
     update(number){
-        console.log(`\nWould you like to dial ${number} ?\n`);
+        console.log(`\nWould you like to dial ${number}?\n`);
     }
 }
 
@@ -55,8 +55,8 @@ class Observer2 {
     constructor(observer){
     this.observer = observer;
     }
-    update(number1){
-        console.log(`Now dialing ${number1}...\n`);
+    update(number){
+        console.log(`Now dialing ${number}...\n`);
     }
 }
 
